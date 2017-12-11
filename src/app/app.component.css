@@ -1,0 +1,34 @@
+.container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+    border: solid 1px black;
+    border-bottom: none;
+    height: 60px
+}
+
+ul li:last-child {
+    border: solid 1px black;
+}
+
+li img, li span {
+    float: left;
+}
+
+li span {
+    margin-left: 30px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+
